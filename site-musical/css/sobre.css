@@ -6,12 +6,12 @@ body {
     margin-right: auto;
 }
 
-h1 {
+.titulo {
     padding: 10px;
     background-color: #e1edf2;
 }
 
-h2 {
+.subtitulo {
     border-bottom: 2px solid black;
 }
 
@@ -23,10 +23,6 @@ figure {
 
     background-color: whitesmoke;
     border: 1px solid lightgrey;
-}
-
-ul {
-    list-style-image: url("../img/footer-icone-instagram.svg")
 }
 
 ol {

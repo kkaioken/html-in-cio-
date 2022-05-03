@@ -48,3 +48,27 @@ ol {
 figure img {
     width: 100%;
 }
+
+.contato__secao {
+
+}
+
+.contato__secao--telefone {
+ 
+}
+
+.contato__subtitulo {
+    display: inline;
+}
+
+.contato__info {
+    margin: 16px 0 14px;
+}
+
+.contato__info--subtitulo {
+
+}
+
+.contato__info--descricao {
+
+}

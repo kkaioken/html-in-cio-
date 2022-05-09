@@ -1,9 +1,20 @@
 body {
     font-family: Helvetica, "Lucida Grande", sans-serif;
     color: #3d3d3d;
-    width: 940px;
+    width: 90%;
+    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1 {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: #E1edf2;
+}
+
+h2 {
+    border-bottom: 2px solid black;
 }
 
 .titulo {
@@ -19,11 +30,18 @@ body {
 
 figure {
     margin: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 15px;
     text-align: center;
 
     background-color: whitesmoke;
-    border: 1px solid lightgrey;
+    border: 1px solid grey;
+}
+
+figcaption {
+    margin-top: 10px;
+
 }
 
 ol {
@@ -102,4 +120,51 @@ html {
 .rodape__copyright {
     display: inline;
     margin-left: 1em;
+}
+
+@media (max-width: 850px) {
+    .contato__secao {
+        display: block;
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 620px) {
+    .familia-tupfeln {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 446px) {
+
+    .contato__subtitulo {
+        display: block;
+        margin-bottom: 0;
+
+    }
+
+    .contato__info {
+        padding-left: 5px;
+
+        font-size: .92em;
+
+        border-left: 2px solid lightgrey;
+    }
+
+    .rodape {
+        font-size: .92em;
+    }
+
+}
+
+@media (max-width: 342px) {
+    .contato__info--titulo {
+        display: block;
+    }
+
+    .contato__info--descricao {
+        margin: 1em;
+    }
+
 }

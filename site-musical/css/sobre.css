@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, "Lucida Grande", sans-serif;
+font-family: "Open Sans", sans-serif;
     color: #3d3d3d;
     width: 90%;
     max-width: 940px;
@@ -114,7 +114,7 @@ html {
 }
 
 .rodape__logo {
-    width: 6em;
+width: 6em;
 }
 
 .rodape__copyright {
@@ -168,3 +168,4 @@ html {
     }
 
 }
+

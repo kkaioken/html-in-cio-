@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=montserfamily=Montserrat:300,400,500,600,700,&display=block);
+
 .cabecalho {
     text-align: center;
     font-size: 0.6rem;
@@ -28,7 +30,7 @@
 @media(min-width: 640px) {
     .cabecalho {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 10px 0;
     }  
@@ -47,4 +49,23 @@
     }
 }
 
-@import url(https://fonts.google.com/specimen/Montserrat?query=montserfamily=Montserrat:300,400,500,600,700,&display=block);
+@media (min-width: 770px) {
+    .cabecalho__menu__item--matricula{
+        margin-left: 1.42em;
+
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+    .cabecalho__menu__item--matricula a {
+        padding: 1.8em 3.5em;
+    }
+}
+
+@media (min-width: 1066px) {
+    .cabecalho {
+        padding: 0 calc((100% - 960px) /2) ;
+    }
+
+}
+

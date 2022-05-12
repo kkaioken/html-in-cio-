@@ -53,7 +53,7 @@
 	}
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (max-width: 1200px) {
 	.rodape {
 		display: flex;
 		flex-wrap: wrap;
@@ -66,7 +66,7 @@
 	.rodape__secao--cursos,
 	.rodape__secao--links,
 	.rodape__secao--newsletter {
-		width: 32%;
+		width: 45%;
 	}
 
 	.rodape__secao--cursos {
@@ -88,4 +88,20 @@
 		order: 4;
 		margin-top: 2em;
 	}
+}
+
+@media (min-width: 1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        text-align: left;
+    }
+    .rodapesubtitulo {
+        font-size: 1em;
+    }
+    .marginsecao {
+        margin-left: 2em;
+        margin-top: 0;
+    }
 }

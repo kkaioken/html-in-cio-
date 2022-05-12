@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 
 <body>
@@ -17,9 +18,15 @@
         <img class="cabecalho__logo" src="img/musicdot-logo-light.svg" title="Logo da MusicDot">
         <nav>
             <ul class="cabecalho__menu">
-                <li class="cabecalho__menu__item"><a href="sobre.html#contato">Contato</a></li>
-                <li class="cabecalho__menu__item"><a href="#">Entrar</a></li>
-                <li class="cabecalho__menu__item cabecalho__menu__item--matricula"><a href="#">Matricule-se</a></li>
+                <li class="cabecalho__menu__item">
+                    <a href="sobre.html#contato">Contato</a>
+                </li>
+                <li class="cabecalho__menu__item">
+                    <a href="#">Entrar</a>
+                </li>
+                <li class="cabecalho__menu__item cabecalho__menu__item--matricula">
+                    <a href="#">Matricule-se</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -60,34 +67,69 @@
         </section>
 
         <section class="rodape__secao rodape__secao--cursos">
-            <h2 class="rodape__subtitulo">Cursos da MusicDot</h2>
+            <h2 class="rodape__subtitulo">
+                Cursos da MusicDot
+            </h2>
             <ul>
-                <li class="item__lista"><a href="#">Cursos de Teclado & Piano</a></li>
-                <li class="item__lista"><a href="#">Cursos de Violão/Guitarra</a></li>
-                <li class="item__lista"><a href="#">Cursos de Baixo</a></li>
-                <li class="item__lista"><a href="#">Cursos de Bateria</a></li>
-                <li class="item__lista"><a href="#">Cursos de Percussão</a></li>
-                <li class="item__lista"><a href="#">Cursos de Canto</a></li>
-                <li class="item__lista"><a href="#">Cursos de Áudio</a></li>
-                <li class="item__lista"><a href="#">Cursos de Teoria</a></li>
-                <li class="item__lista"><a href="#">Cursos de Sopro</a></li>
-                <li class="item__lista"><a href="#">Cursos de Cordas</a></li>
+                <li class="item__lista"><a href="#">Cursos de Teclado & Piano</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Violão/Guitarra</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Baixo</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Bateria</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Percussão</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Canto</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Áudio</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Teoria</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Sopro</a>
+                </li>
+                <li class="item__lista"><a href="#">Cursos de Cordas</a>
+                </li>
             </ul>
         </section>
 
         <section class="rodape__secao rodape__secao--links">
-            <h2 class="rodape__subtitulo">MusicDot</h2>
+            <h2 class="rodape__subtitulo">
+                MusicDot
+            </h2>
             <ul>
-                <li class="item__lista"><a>Apostila</a></li>
-                <li class="item__lista"><a>E-book</a></li>
-                <li class="item__lista"><a>Login</a></li>
-                <li class="item__lista"><a>Matricule-se</a></li>
-                <li class="item__lista"><a>Perguntas frequentes</a></li>
-                <li class="item__lista"><a>Para Escolas</a></li>
-                <li class="item__lista"><a>Contato</a></li>
+                <li class="item__lista"><a>Apostila</a>
+                </li>
+                <li class="item__lista"><a>E-book</a>
+                </li>
+                <li class="item__lista"><a>Login</a>
+                </li>
+                <li class="item__lista"><a>Matricule-se</a>
+                </li>
+                <li class="item__lista"><a>Perguntas frequentes</a>
+                </li>
+                <li class="item__lista"><a>Para Escolas</a>
+                </li>
+                <li class="item__lista"><a>Contato</a>
+                </li>
             </ul>
         </section>
 
+        <section class="rodape__secao rodape__secao--newsletter">
+            <h2 class="rodape__subtitulo">
+                Receba novidades e lançamentos
+            </h2>
+            <form action="#" method="post" class="form-newsletter">
+
+                <label for="email" class="form-newsletter__label">
+                </label>
+                <input type="email" id="email" class="form-newsletter__campo" placeholder="Informe seu e-mail pessoal" />
+                <button type="submit" class="form-newsletter__botao">
+                    OK
+                </button>
+            </form>
+        </section>
     </footer>
 </body>
 
